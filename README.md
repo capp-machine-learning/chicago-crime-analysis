@@ -31,3 +31,5 @@ To download the datasets that I used:
          chicago_crime_2017.csv already exists!
          chicago_crime_2018.csv already exists!
          All datasets downloaded!
+
+1. Alternatively, you can simply download from the Dropbox url below:
