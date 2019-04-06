@@ -7,6 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 All datasets used are downloaded from [Chicago Data Portal](https://data.cityofchicago.org/).
+These datasets are not in this repo due to the size of these files.
 
 To download the datasets that I used:
 
