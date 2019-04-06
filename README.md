@@ -6,6 +6,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
+1. Clone the repository.
+
+        git clone https://github.com/capp-machine-learning/chicago-crime-analysis.git
+        cd chicago-crime-analysis
+
 All datasets used are downloaded from [Chicago Data Portal](https://data.cityofchicago.org/).
 These datasets are not in this repo due to the size of these files.
 
