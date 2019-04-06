@@ -26,8 +26,8 @@ To download the datasets that I used:
 
    - If the datasets already exist, you will see:
 
-        $ cd data
-        $ python data_downloader.py
-        chicago_crime_2017.csv already exists!
-        chicago_crime_2018.csv already exists!
-        All datasets downloaded!
+                $ cd data
+                $ python data_downloader.py
+                chicago_crime_2017.csv already exists!
+                chicago_crime_2018.csv already exists!
+                All datasets downloaded!
