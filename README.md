@@ -16,7 +16,7 @@ These datasets are not in this repo due to the size of these files.
 
 To download the datasets that I used:
 
-1. Use data_downloader.py.
+1. Use data/data_downloader.py.
 
         $ cd data
         $ python data_downloader.py
