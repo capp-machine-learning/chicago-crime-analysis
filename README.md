@@ -32,4 +32,9 @@ To download the datasets that I used:
          chicago_crime_2018.csv already exists!
          All datasets downloaded!
 
-1. Alternatively, you can simply download from the Dropbox url below:
+1. Alternatively, you can simply download directly from the Chicago Data Portal url below:
+
+        $ cd data
+        $ curl -O https://data.cityofchicago.org/api/views/d62x-nvdr/rows.csv?accessType=DOWNLOAD > chicago_crime_2017.csv
+        $ curl -O https://data.cityofchicago.org/api/views/3i3m-jwuy/rows.csv?accessType=DOWNLOAD > chicago_crime_2018.csv
+        
