@@ -105,3 +105,4 @@ venv.bak/
 
 # data files
 data/*.csv
+my_api_key.py
