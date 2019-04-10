@@ -84,7 +84,7 @@ def get_plots_by_time(crime_df, crime_type):
     - Graphs
     '''
     p_df = crime_df[(crime_df["primary_type"] == crime_type)]
-    time_list = ["date", "year", "weekend"]
+    time_list = ["date", "year", "weekday"]
 
     for time in time_list:
         p_df.groupby(
