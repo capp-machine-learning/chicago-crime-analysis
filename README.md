@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+I used conda as the environment manager.
 
 ### Prerequisites
 
@@ -11,30 +11,31 @@ These instructions will get you a copy of the project up and running on your loc
         $ git clone https://github.com/capp-machine-learning/chicago-crime-analysis.git
         $ cd chicago-crime-analysis
 
+1. A yml file of the environment is available in requirement.yml.
+
+        $ conda env create --file=requirement.yml
+        $ conda activate cca
+
 All datasets used are downloaded from [Chicago Data Portal](https://data.cityofchicago.org/).
-These datasets are not in this repo due to the size of these files.
 
 To download the datasets that I used:
 
-1. Use data/data_downloader.py.
+1. Go to Chicago Data Portal to download the data.
 
-        $ cd data
-        $ python data_downloader.py
-        chicago_crime_2017.csv downloaded!
-        chicago_crime_2018.csv downloaded!
-        All datasets downloaded!
-
-   - If the datasets already exist, you will see:
-
-         $ cd data
-         $ python data_downloader.py
-         chicago_crime_2017.csv already exists!
-         chicago_crime_2018.csv already exists!
-         All datasets downloaded!
-
-1. Alternatively, you can simply download directly from the Chicago Data Portal url below:
+1. Alternatively, you can simply download directly from the url below:
 
         $ cd data
         $ curl -O https://data.cityofchicago.org/api/views/d62x-nvdr/rows.csv?accessType=DOWNLOAD > chicago_crime_2017.csv
         $ curl -O https://data.cityofchicago.org/api/views/3i3m-jwuy/rows.csv?accessType=DOWNLOAD > chicago_crime_2018.csv
         
+### Files
+
+        chicago-crime-analysis
+        ├── chicago_crime_data.ipynb
+        ├── chicago_crime_data.pdf
+        ├── ml_functions.py
+        ├── README.md
+        └── requirement.yml
+
+- __chicago_crime_data.ipynb__: This file is *the main file with all write-up and the bulk of the coding.* Just in case, the code does not run, I have also uploaded a pdf file of the same write-up with all outputs.
+- __ml_functions.py__: This python file has a collection of functions that I have written for this analysis. All functions are imported and used in __chicago_crime_data.ipynb__.
